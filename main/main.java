@@ -13,9 +13,8 @@ public class main {
 
     Engenheiro eng1 = new Engenheiro("Yan", 2345, "engenharia");
 
-    System.out.println(motora1.getNome());
-    System.err.println(motora1.getCpf());
-
+        System.out.println("Nome: " + motora1.getNome() + " \nCPF: " + motora1.getCpf() + "\nCarteira: " + motora1.getNumCarteira());
+        
 
     }
 }
